@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+.display-1 {
+    font-size: 80px;
+    font-weight: 200;
+}
+
+.shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.tarea-item .icono-borrar {
+    visibility: hidden;
+    color: red;
+    cursor: pointer;
+}
+
+.tarea-item .icono-borrar:hover {
+    color: darkred;
+}
+
+.tarea-item:hover .icono-borrar {
+    visibility: visible;
+}
+
+.tarea-item {
+    font-size: 24px;
+}
